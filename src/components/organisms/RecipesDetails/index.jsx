@@ -1,9 +1,9 @@
 import "./recipeDetails.scss";
-function Recipes() {
+function RecipesDetails() {
   return (
     <div>
       <h1>Recipe Details</h1>
     </div>
   );
 }
-export default Recipes;
+export default RecipesDetails;

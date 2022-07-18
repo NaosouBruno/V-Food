@@ -1,4 +1,5 @@
 import { useContext } from "react";
+import { Link } from "react-router-dom";
 import {
   CardImage,
   CardTitle,
@@ -21,10 +22,13 @@ function ArticleContent() {
       {article.map((article) => {
         return (
           <article key={article.id} className="article__post__item">
-            <CardImage
-              className="card__image--mt"
-              image={article.img}
-            ></CardImage>
+            <Link to="/details">
+              <CardImage
+                className="card__image--mt"
+                image={article.img}
+              ></CardImage>
+            </Link>
+
             <div className="article__info__bar__container">
               <CardTitle
                 className="card__title--mt"
