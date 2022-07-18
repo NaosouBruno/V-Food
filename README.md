@@ -2,27 +2,14 @@
 
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
- <a href="#roadmap">Roadmap</a> • 
  <a href="#tecnologias">Tecnologias</a> • 
  <a href="#contribuicao">Contribuição</a> • 
- <a href="#licenc-a">Licença</a> • 
- <a href="#autor">Autor</a>
 </p>
 
 
 <p  href="#objetivo" align="center">
   Projeto apresentando no V-Camp para criacão de um blog de receitas denominado V-Food, o design foi demonstrado pelo Figma e a criação utilizando o ReactJS. Além disso inicialmente foi denominado que a construção seria em grupo e a finalização seria individual. Abaixo temos algumas das tecnologias que foram utilizadas nesse projeto.
 </p>
-
-<p href="#contribuicao" align="center">
-  Projeto apresentando no V-Camp para criacão de um blog de receitas denominado V-Food, o design foi demonstrado pelo Figma e a criação utilizando o ReactJS. Além disso inicialmente foi denominado que a construção seria em grupo e a finalização seria individual. Abaixo temos algumas das tecnologias que foram utilizadas nesse projeto.
-</p>
-
-<p  href="#autor" align="center">
-  Projeto apresentando no V-Camp para criacão de um blog de receitas denominado V-Food, o design foi demonstrado pelo Figma e a criação utilizando o ReactJS. Além disso inicialmente foi denominado que a construção seria em grupo e a finalização seria individual. Abaixo temos algumas das tecnologias que foram utilizadas nesse projeto.
-</p>
-
-
 
 
 <p href="#tecnologias" align="center">
