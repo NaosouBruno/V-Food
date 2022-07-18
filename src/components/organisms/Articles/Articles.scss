@@ -1,0 +1,14 @@
+@use "/public/styles/variables" as *;
+
+.articles {
+  margin-bottom: 55px;
+  
+
+  @media screen {
+    @media (min-width: $desktop-x) {
+      margin-bottom: 100px;
+      min-height: 1100px;
+      flex: 1;
+    }
+  }
+}

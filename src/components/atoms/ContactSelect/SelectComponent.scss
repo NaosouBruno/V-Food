@@ -1,0 +1,45 @@
+@use "/public/styles/variables" as *;
+.select-container {
+  margin-top: 32px;
+  &__div {
+    position: relative;
+
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      top: 50%;
+      border-top: 2px solid rgb(0, 0, 0);
+      width: 10px;
+      pointer-events: none;
+    }
+
+    &::before {
+      right: 26px;
+      -webkit-transform: rotate(45deg);
+      transform: rotate(45deg);
+    }
+
+    &::after {
+      right: 20px;
+      -webkit-transform: rotate(-45deg);
+      transform: rotate(-45deg);
+    }
+  }
+  &__select {
+    -webkit-appearance: none;
+    width: 375px;
+    height: 60px;
+    background: $colorLight;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding: 20px 19px;
+    font-family: $inter;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.02em;
+    color: rgba(0, 0, 0, 0.6);
+  }
+}

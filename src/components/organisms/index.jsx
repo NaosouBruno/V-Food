@@ -1,0 +1,13 @@
+export { default as Footer } from "./Footer";
+export { default as Form } from "./Form";
+export { default as Navbar } from "./Navbar";
+export { default as NewsletterForm } from "./NewsletterForm";
+export { default as Slider } from "./Slider";
+export { default as Recipes } from "./Recipes";
+export { default as Articles } from "./Articles";
+export { default as BlogHeader } from "./BlogHeader";
+export { default as HomeBanner } from "./HomeBanner";
+export { default as Categories } from "./Categories";
+export { default as LearnMore } from "./LearnMore";
+export { default as InstagramSection } from "./InstagramSection";
+export { default as HomeRecipesSlider } from "./HomeRecipesSlider";

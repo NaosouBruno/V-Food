@@ -1,0 +1,120 @@
+@use "/public/styles/variables" as *;
+.form__title {
+  font-family: $inter;
+  font-size: 60px;
+  line-height: 73px;
+  font-weight: 600;
+  letter-spacing: -0.04em;
+  color: $colorDark;
+  display: flex;
+  justify-content: center;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 30px;
+  max-width: fit-content;
+  margin: 0 auto 30px;
+
+  &-container {
+    @media screen {
+      @media (min-width: $desktop) {
+        display: flex;
+        flex-direction: row;
+        margin-top: 72px;
+      }
+    }
+
+    &__containerImg {
+      display: none;
+      @media screen {
+        @media (min-width: $desktop) {
+          display: block;
+
+          height: 472px;
+          background: linear-gradient(
+            180deg,
+            rgba(231, 249, 253, 0) 0%,
+            #e7f9fd 100%
+          );
+          border-radius: 30px;
+          flex: 1;
+          margin: 0 80px;
+        }
+      }
+      &__img {
+        @media screen {
+          @media (min-width: $desktop-xm) {
+            width: 350px;
+            height: 472px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.form__button {
+  width: 372.59px;
+  height: 64px;
+  background: $colorDark;
+  border-radius: 16px;
+  font-family: $inter;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  color: $colorLight;
+  margin-top: 32px;
+  cursor: pointer;
+}
+
+/* .form-container__img {
+  display: none;
+} */
+
+@media screen and (min-width: $desktop) {
+  .form {
+    max-width: 1440px;
+    margin: 0 auto 160px;
+  }
+
+  /* .form-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 72px;
+  }
+ */
+  .form__button {
+    /*  width: 180px; */
+    height: 64px;
+  }
+}
+
+@media screen and (min-width: $desktop-xm) {
+  .form__input {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    flex: 3;
+  }
+  /*   .form-container__img {
+    display: block;
+
+    height: 472px;
+    background: linear-gradient(
+      180deg,
+      rgba(231, 249, 253, 0) 0%,
+      #e7f9fd 100%
+    );
+    border-radius: 30px;
+    flex: 1;
+    margin: 0 80px;
+  } */
+  /*   .form__img {
+    width: 350px;
+    height: 472px;
+  } */
+}

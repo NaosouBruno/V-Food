@@ -1,0 +1,165 @@
+@use "/public/styles/variables" as *;
+.article__info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 19px;
+
+  &__bar {
+    background-color: $colorDark;
+    opacity: 15%;
+    width: 1.05px;
+    height: 30px;
+    margin: 0 11px 0 11px;
+  }
+}
+
+.article__post {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+
+  &__item {
+    max-width: 295px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+}
+
+.article {
+
+  &__text {
+    height: auto;
+  }
+
+  &__notfound{
+    font-family: $inter;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+
+  }
+
+  &__triangle{
+    width: 180px;
+    height: 180px;
+    background-color: $orange;
+    clip-path: polygon(0 100%, 50% 0, 100% 100%);
+    position: relative;
+    margin: 0 auto;
+
+    &-container{
+      width: 100%;
+    }
+    &--icon{
+      position: absolute;
+      top: 60%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 10rem;
+      color: $colorLight;
+    }
+  }
+}
+
+@media only screen and (min-width: $tablet) {
+  .article {
+    padding: 0 3rem;
+
+    &__notfound{
+      position: relative;
+      width: 100%;
+      
+    }
+
+    &__text {
+      margin: 0;
+      width: 36rem;
+    }
+
+    &__info {
+      margin: 0;
+    }
+
+    &__post {
+      align-items: flex-start;
+      justify-content: flex-start;
+      // width: 65%;
+      gap: 4rem;
+    }
+
+    &__post__item {
+      flex-direction: row;
+      max-width: fit-content;
+      gap: 1rem;
+    }
+
+    &__info__bar__container {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+  }
+  .card__title--mt {
+    margin-top: 0;
+  }
+}
+
+@media screen and (min-width: $tablet-x) {
+  .article {
+    &__post {
+      margin: 0 auto;
+    }
+  }
+}
+
+@media screen and (min-width: $desktop) {
+  .article__post__item {
+    max-width: 1280px;
+    justify-content: space-between;
+    max-width: $desktop;
+    gap: 4rem;
+  }
+
+  .card__image--mt {
+    display: flex;
+  }
+
+  .article__info {
+    &__bar {
+      display: flex;
+      align-items: flex-end;
+      justify-content: flex-start;
+      flex-direction: row;
+    }
+  }
+
+  .article__text {
+    width: 51rem;
+    font-size: 16px;
+  }
+  .article__info__bar__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 1rem 0;
+  }
+
+  .card__title--mt {
+    font-size: 2.4rem;
+  }
+}
+
+@media only screen and (min-width: $desktop-x) {
+  .article{
+
+    &__post {
+      margin: 0;
+    }
+    &__notfound{
+      font-size: 3rem;
+    }
+  }
+}

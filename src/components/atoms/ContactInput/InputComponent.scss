@@ -1,0 +1,86 @@
+@use "/public/styles/variables" as *;
+.input-container {
+  margin-top: 32px;
+
+  @media screen {
+    @media (min-width: $desktop-xm) {
+      &:nth-child(2n) {
+        margin-left: 60px;
+      }
+    }
+  }
+
+  &__label {
+    font-family: $inter;
+    margin-bottom: 15px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  &__input {
+    width: 375px;
+    height: 60px;
+    background: $colorLight;
+    border: $border-components;
+    border-radius: 16px;
+    padding: 18px 19px;
+    position: relative;
+    font-family: $inter;
+
+    &::placeholder {
+      font-family: $inter;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      color: rgba(0, 0, 0, 0.6);
+      opacity: 0.8;
+      padding-left: 10px;
+    }
+  }
+}
+/* .input {
+  width: 375px;
+  height: 60px;
+  background: $colorLight;
+  border: $border-components;
+  border-radius: 16px;
+  padding: 18px 19px;
+  position: relative;
+  font-family: $inter;
+} */
+
+/* .input::placeholder {
+  font-family: $inter;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: -0.02em;
+  color: rgba(0, 0, 0, 0.6);
+  opacity: 0.8;
+  padding-left: 10px;
+} */
+
+/* .input__label {
+  font-family: $inter;
+  margin-bottom: 15px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 20px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.6);
+} */
+
+/* @media screen and (min-width: $desktop-xm) {
+  .input__container:nth-child(2n) {
+    margin-left: 60px;
+  }
+}
+ */

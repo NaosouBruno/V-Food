@@ -1,0 +1,18 @@
+$colorDark: #000000;
+$colorLight: #ffffff;
+$fontWeightTitle: 600;
+$fontWeightBody: 500;
+$orange: #ff7967;
+$inter: "Inter", sans-serif;
+$colorGray: rgba(0, 0, 0, 0.1);
+$colorGrey: rgba(0, 0, 0, 0.6);
+$colorBlue: linear-gradient(180deg, rgba(231, 249, 253, 0) 0%, #E7F9FD 100%);
+$border-components: 1px solid rgba(0, 0, 0, 0.1);
+
+/* breakpoints media query */
+$tablet: 700px;
+$tablet-x: 810px;
+$desktop: 1024px;
+$desktop-x: 1270px;
+$desktop-xm: 1400px;
+$desktop-xl: 1440px;

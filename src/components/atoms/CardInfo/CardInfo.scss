@@ -1,0 +1,21 @@
+@use "/public/styles/variables" as *;
+.card__info {
+  display: flex;
+  margin-top: 27px;
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__text {
+    color: $colorDark;
+    opacity: 0.6;
+    font-weight: $fontWeightBody;
+    font-size: 1.4rem;
+    line-height: 17px;
+    letter-spacing: -0.02em;
+    margin-right: 27.75px;
+    margin-left: 14.12px;
+  }
+}
