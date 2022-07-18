@@ -1,8 +1,8 @@
 import "./info.scss";
 function FoodInfo() {
   return (
-    <div>
-      <h1>Food Info</h1>
+    <div className="foodInfo">
+      <h2 className="foodInfo-title">Health Japanese Fried Rice</h2>
     </div>
   );
 }

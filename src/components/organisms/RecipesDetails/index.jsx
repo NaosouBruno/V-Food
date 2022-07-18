@@ -1,11 +1,14 @@
 import { FoodInfo, FoodIngredient } from "../../molecules/";
+import { Navbar, NewsletterForm, Footer } from "../../organisms";
 import "./recipeDetails.scss";
 function RecipesDetails() {
   return (
     <div>
-      <h1>Recipe Details</h1>
+      <Navbar />
       <FoodInfo />
       <FoodIngredient />
+      <NewsletterForm />
+      <Footer />
     </div>
   );
 }
