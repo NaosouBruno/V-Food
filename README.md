@@ -2,6 +2,4 @@
 
 <p align="center">Como parte do V-Camp foi proposto o desafio de cosntrução de uma blog de receita, inicialmente construido em grupo e finalizado sozinho. As tecnologias utilizadas foram as seguintes:</p>
 
-<img src="https://img.shields.io/static/v1?label=Blog&message=Rocketseat&color=7159c1&style=for-the-badge&logo=ghost"/>
-
-[![My Skills](https://skills.thijs.gg/icons?i=java,kotlin,nodejs,figma&theme=light)](https://skills.thijs.gg)
+[![My Skills](https://skills.thijs.gg/icons?i=javascript,react,figma&theme=light)](https://skills.thijs.gg)
