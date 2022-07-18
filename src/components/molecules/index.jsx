@@ -9,3 +9,5 @@ export { default as CardBanner } from "./CardBanner";
 export { default as CategoriesCard } from "./CategoriesCard";
 export { default as InstaCard } from "./InstaCard";
 export { default as HomeRecipes } from "./HomeRecipes";
+export { default as FoodInfo } from "./FoodInfo";
+export { default as FoodIngredient } from "./FoodIngredient";
