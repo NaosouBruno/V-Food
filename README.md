@@ -7,3 +7,8 @@ Tecnologias utilizadas
 
 
 
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=gjs,react,sass,figma" />
+  </a>
+</p>
