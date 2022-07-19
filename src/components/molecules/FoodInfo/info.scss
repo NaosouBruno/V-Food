@@ -16,14 +16,21 @@
     color: $colorDark;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+  &-dish {
+    width: 369.65px;
+    height: 311.91px;
+    margin: 0 auto;
+    border-radius: 15px;
+  }
 }
 
 .foodSpecifications {
   display: flex;
   justify-content: space-around;
+  margin-bottom: 10px;
   &-container {
     display: flex;
-    flex-direction: column;
+
     justify-content: center;
     align-items: center;
     font-family: $inter;
@@ -40,7 +47,7 @@
       font-size: 14px;
       line-height: 17px;
       letter-spacing: -0.02em;
-      margin-left: 15px;
+
       color: rgba(0, 0, 0, 0.6);
     }
     &--titleType {
@@ -53,6 +60,7 @@
   }
   &-content {
     display: flex;
+    flex-direction: column;
     align-items: center;
   }
 }
