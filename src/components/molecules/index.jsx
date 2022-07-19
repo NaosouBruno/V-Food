@@ -13,3 +13,4 @@ export { default as FoodSpecificationsTree } from "./FoodInfoTree";
 export { default as FoodSpecificationsDuo } from "./FoodSpecifications";
 export { default as FoodInfo } from "./FoodInfo";
 export { default as FoodIngredient } from "./FoodIngredient";
+export { default as NutriInfo } from "./FoodNutritionInfo";

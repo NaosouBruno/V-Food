@@ -5,6 +5,7 @@ import Food from "/assets/Food03.png";
 import {
   FoodSpecificationsDuo,
   FoodSpecificationsTree,
+  NutriInfo,
 } from "../../molecules/index";
 import John from "/assets/john.png";
 function FoodInfo() {
@@ -32,6 +33,7 @@ function FoodInfo() {
           leftSubTitle="15 minutes"
         />
       </div>
+      <NutriInfo itemName="Caloreis" itemQuant="219.9" />
     </div>
   );
 }
