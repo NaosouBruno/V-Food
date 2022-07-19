@@ -22,6 +22,10 @@
     margin: 0 auto;
     border-radius: 15px;
   }
+  &-options {
+    display: flex;
+    justify-content: space-around;
+  }
 }
 
 .foodSpecifications {

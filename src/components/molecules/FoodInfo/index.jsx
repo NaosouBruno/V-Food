@@ -2,10 +2,13 @@ import "./info.scss";
 import Timer from "/assets/Timer.svg";
 import ForkKnife from "/assets/ForkKnife.svg";
 import Food from "/assets/Food03.png";
+import Share from "/assets/share.png";
+import Print from "/assets/printer.png";
 import {
   FoodSpecificationsDuo,
   FoodSpecificationsTree,
   NutriInfo,
+  NutriIcon,
 } from "../../molecules/index";
 import John from "/assets/john.png";
 function FoodInfo() {
@@ -33,7 +36,11 @@ function FoodInfo() {
           leftSubTitle="15 minutes"
         />
       </div>
-      <NutriInfo itemName="Caloreis" itemQuant="219.9" />
+      <NutriInfo />
+      <div className="foodInfo-options">
+        <NutriIcon icon={Print} title="Print" />
+        <NutriIcon icon={Share} title="Share" />
+      </div>
     </div>
   );
 }
