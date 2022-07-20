@@ -1,0 +1,38 @@
+@use "/public/styles/variables" as *;
+.listIng {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  &__checked {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+  }
+
+  &__ingredient {
+    margin-left: 24px;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+
+    font-family: $inter;
+    font-style: normal;
+    line-height: 28px;
+    color: $colorDark;
+
+    &--marked {
+      font-size: 16px;
+      color: rgba(0, 0, 0, 0.6);
+      text-decoration-line: line-through;
+      opacity: 0.2;
+    }
+  }
+  &-line {
+    width: 382px;
+    height: 0px;
+    margin-top: 20px;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+}

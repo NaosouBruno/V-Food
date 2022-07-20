@@ -12,7 +12,8 @@ export { default as HomeRecipes } from "./HomeRecipes";
 export { default as FoodSpecificationsTree } from "./FoodInfoTree";
 export { default as FoodSpecificationsDuo } from "./FoodSpecifications";
 export { default as FoodInfo } from "./FoodInfo";
-
 export { default as NutriInfo } from "./FoodNutritionInfo";
 export { default as NutriItem } from "./NutritionItem";
 export { default as NutriIcon } from "./NutritionIcon";
+export { default as Ingredients } from "./FoodIngredients";
+export { default as ListIngredients } from "./ListIngredients";
