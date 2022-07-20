@@ -1,0 +1,29 @@
+@use "/public/styles/variables" as *;
+
+.directions {
+  display: flex;
+  flex-direction: column;
+  margin-left: 26px;
+  &__typografy {
+    font-family: $inter;
+    font-style: normal;
+    font-weight: $fontWeightTitle;
+    font-size: 36px;
+
+    letter-spacing: -0.04em;
+    color: $colorDark;
+    &--item {
+      font-size: 24px;
+    }
+    &--explication {
+      width: 329px;
+      font-family: "Inter";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      letter-spacing: -0.02em;
+      color: rgba(0, 0, 0, 0.6);
+      margin: 40px 0 30px 0;
+    }
+  }
+}

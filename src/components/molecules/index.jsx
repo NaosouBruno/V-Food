@@ -17,3 +17,4 @@ export { default as NutriItem } from "./NutritionItem";
 export { default as NutriIcon } from "./NutritionIcon";
 export { default as Ingredients } from "./FoodIngredients";
 export { default as ListIngredients } from "./ListIngredients";
+export { default as Directions } from "./FoodDirections";

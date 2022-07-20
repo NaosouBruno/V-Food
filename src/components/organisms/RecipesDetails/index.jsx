@@ -1,4 +1,4 @@
-import { FoodInfo, Ingredients } from "../../molecules/";
+import { FoodInfo, Ingredients, Directions } from "../../molecules/";
 import { Navbar, NewsletterForm, Footer } from "../../organisms";
 import "./recipeDetails.scss";
 function RecipesDetails() {
@@ -7,6 +7,7 @@ function RecipesDetails() {
       <Navbar />
       <FoodInfo />
       <Ingredients />
+      <Directions />
       <NewsletterForm />
       <Footer />
     </div>
