@@ -3,7 +3,7 @@ import Woman from "/assets/woman.png";
 import { ListIngredients } from "../../molecules";
 function Directions() {
   return (
-    <div className="directions">
+    <section className="directions">
       <h2 className="directions__typografy">Directions</h2>
       <ul>
         <ListIngredients
@@ -55,7 +55,7 @@ function Directions() {
           voluptatem.
         </p>
       </ul>
-    </div>
+    </section>
   );
 }
 

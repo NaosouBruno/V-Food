@@ -16,6 +16,25 @@
     color: $colorDark;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   }
+  &-container {
+    @media screen {
+      @media (min-width: $desktop) {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+      }
+    }
+  }
+  &-containerImg {
+    display: flex;
+    @media screen {
+      @media (min-width: $desktop) {
+        order: 2;
+        flex-wrap: wrap;
+        flex-basis: 100%;
+      }
+    }
+  }
   &-dish {
     width: 369.65px;
     height: 311.91px;
@@ -32,6 +51,13 @@
   display: flex;
   justify-content: space-around;
   margin: 10px 0;
+  @media screen {
+    @media (min-width: $desktop) {
+      display: flex;
+      /* order: 2; */
+    }
+  }
+
   &-container {
     display: flex;
 
@@ -41,6 +67,12 @@
     font-style: normal;
     font-weight: $fontWeightBody;
     color: $colorDark;
+    @media screen {
+      @media (min-width: $desktop) {
+        margin-left: 50px;
+      }
+    }
+    margin-left: 50px;
     &--titleTimer {
       font-size: 12px;
       line-height: 15px;

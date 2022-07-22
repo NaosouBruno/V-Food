@@ -2,7 +2,7 @@ import "./ingredients.scss";
 import { ListIngredients } from "../../molecules/index";
 function Ingredients() {
   return (
-    <div className="ingredients">
+    <section className="ingredients">
       <h2 className="ingredients__title">Ingredients</h2>
       <h3 className="ingredients__title ingredients__title--subTitle">
         For main dish
@@ -56,7 +56,7 @@ function Ingredients() {
         />
         <hr className="listIng-line" />
       </ul>
-    </div>
+    </section>
   );
 }
 export default Ingredients;
